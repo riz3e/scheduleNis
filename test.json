@@ -1,0 +1,2522 @@
+{
+    "r": {
+        "type": "maindbi",
+        "dbid": "2023",
+        "tables": [
+            {
+                "id": "teachers",
+                "def": {
+                    "id": "teachers",
+                    "name": "Учителя",
+                    "item_name": "Учитель",
+                    "icon": "/global/pics/ui/teacher_32.svg",
+                    "name_cols": [
+                        "FSL",
+                        "LCF",
+                        "LSF",
+                        "PFSL",
+                        "PFSLX",
+                        "LCFP",
+                        "LSFP",
+                        "LSFCP",
+                        "PLSF"
+                    ]
+                },
+                "cdefs": [
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    },
+                    {
+                        "id": "cb_hidden",
+                        "type": "checkbox",
+                        "name": "Не преподавательский штат сотрудников (скрыть от классного журнала)"
+                    },
+                    {
+                        "id": "expired",
+                        "type": "checkbox",
+                        "name": "expired",
+                        "invisible": true
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "-139",
+                        "short": "",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-220",
+                        "short": "Onyancha Paul Obita Onyancha Paul Obita",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-171",
+                        "short": "Quiambao Joseph",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-46",
+                        "short": "Абдрахманова Р.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-100",
+                        "short": "Абенова А.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-156",
+                        "short": "Абилхан Е.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-101",
+                        "short": "Абишева С.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-172",
+                        "short": "Абуханова А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-196",
+                        "short": "Авдюнин Н.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-18",
+                        "short": "Агызамхан Д.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-170",
+                        "short": "Адамбаева А.Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-152",
+                        "short": "Адилханов А.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-205",
+                        "short": "",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-19",
+                        "short": "Артыкбаев Б.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-37",
+                        "short": "Атабаев А.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-181",
+                        "short": "Атайбекова Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-15",
+                        "short": "Атиев А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-68",
+                        "short": "Ахметова  Э.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-167",
+                        "short": "Байгутова Наргиз Баглановна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-157",
+                        "short": "Баймуханов  А. С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-153",
+                        "short": "Балажигитова Н.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-91",
+                        "short": "Баримбекова А.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-186",
+                        "short": "Бауыржанов Б.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-60",
+                        "short": "Бегунгутов Т.Е.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-8",
+                        "short": "Бейбитов Б.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-92",
+                        "short": "Бердибаева А.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-1",
+                        "short": "Битаева Р.О.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-93",
+                        "short": "Битаева С.О.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-179",
+                        "short": "Бокашев Д.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-187",
+                        "short": "Брускина В.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-104",
+                        "short": "Бусыгина Т.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-126",
+                        "short": "Волченко Е.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-217",
+                        "short": "Гладченко Юрий",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-47",
+                        "short": "Гонохова Л.Г.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-215",
+                        "short": "Досжанова Салтанат Тимуровна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-105",
+                        "short": "Дуйсебаева Л.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-124",
+                        "short": "Дюсентаев А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-112",
+                        "short": "Енгай Н.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-127",
+                        "short": "Ержуманова С.Ж.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-208",
+                        "short": "Ериктыкызы Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-203",
+                        "short": "Еркинбаева А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-166",
+                        "short": "Есбаев М.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-73",
+                        "short": "Есбатырова И.Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-94",
+                        "short": "Жакупова Г.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-48",
+                        "short": "Жапсарбаева К.Ж.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-75",
+                        "short": "Жетписбаева Ж.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-24",
+                        "short": "Жунусова А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-95",
+                        "short": "Иманбаева Г.О.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-11",
+                        "short": "Иманбаева Ж.З.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-39",
+                        "short": "Исабеков Б.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-106",
+                        "short": "Исабекова Ж.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-61",
+                        "short": "Искакова А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-216",
+                        "short": "Исламова Мадина Рашидкызы",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-185",
+                        "short": "Кажахметова М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-165",
+                        "short": "Назым К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-158",
+                        "short": "Какен М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-96",
+                        "short": "Калыкбекова Б.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-184",
+                        "short": "Камбарова К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-180",
+                        "short": "Капашева Г.И.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-151",
+                        "short": "Каримова А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-70",
+                        "short": "Карипжанов М.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-149",
+                        "short": "Касенов  Д.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-163",
+                        "short": "Касимов  Е.  Е.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-76",
+                        "short": "Кенжебаев А.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-50",
+                        "short": "Кереева А.Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-82",
+                        "short": "Ким Г.Ф.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-62",
+                        "short": "Ким Е.О.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-159",
+                        "short": "Ким И.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-63",
+                        "short": "Ким Н.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-83",
+                        "short": "Клокова Е.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-174",
+                        "short": "Кобдыкова А.Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-193",
+                        "short": "Копжанова А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-177",
+                        "short": "Косемова Алуа Ренатовна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-35",
+                        "short": "Куанышбаев А.Ж.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-53",
+                        "short": "Кудайбергенова К.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-54",
+                        "short": "Кунанбаева А.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-51",
+                        "short": "Кунанбаева С.Ж.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-210",
+                        "short": "Кусаинова  Д. Ж.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-97",
+                        "short": "Кушерова Л.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-26",
+                        "short": "Ли А.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-84",
+                        "short": "Лих И.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-17",
+                        "short": "Майкожанова А. А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-79",
+                        "short": "Мамлеева С.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-34",
+                        "short": "Мамырай А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-199",
+                        "short": "Марченко К.И.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-160",
+                        "short": "Мендекина Б.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-119",
+                        "short": "Менлибаева А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-207",
+                        "short": "Муртазалиев А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-212",
+                        "short": "Мухаметкаримова Назым Едилжановна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-188",
+                        "short": "Мухаметшарова А.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-169",
+                        "short": "Нурахмет Фариза Октябрькызы",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-183",
+                        "short": "Нурахметова Ш.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-16",
+                        "short": "Нурбек К.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-114",
+                        "short": "Нургалиева Д.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-161",
+                        "short": "Нусипханулы Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-40",
+                        "short": "Омаров Т.Д.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-64",
+                        "short": "Омарова Ж.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-123",
+                        "short": "Оразбаева Ж.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-107",
+                        "short": "Орынбаева А.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-209",
+                        "short": "Оспанова  А. А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-28",
+                        "short": "Полянских С.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-65",
+                        "short": "Рамазанов Р.Г.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-176",
+                        "short": "Рахимова А.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-77",
+                        "short": "Рахманова Н.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-6",
+                        "short": "Рымжанова А.Е.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-108",
+                        "short": "Рысбаева А.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-56",
+                        "short": "Рысбаева А.К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-85",
+                        "short": "Сабитова А.У.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-218",
+                        "short": "Сабитова С.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-200",
+                        "short": "Сагындыкова  Э.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-173",
+                        "short": "Сандыбаева А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-204",
+                        "short": "Сапарова А. К.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-192",
+                        "short": "Сарыева А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-154",
+                        "short": "Саят Елнур Жарасулы",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-182",
+                        "short": "Сергазина Г.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-162",
+                        "short": "Сопбек Гайникамал",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-29",
+                        "short": "Сосин В.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-30",
+                        "short": "Сулейманова А.Л.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-13",
+                        "short": "Султанова И.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-150",
+                        "short": "Султанова Н.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-2",
+                        "short": "Сыдыкова Ш.Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-206",
+                        "short": "Таванова Г.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-190",
+                        "short": "Тарабанова Н.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-164",
+                        "short": "Татиева Лаура",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-14",
+                        "short": "Титова К.В.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-202",
+                        "short": "Тленчиева И.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-213",
+                        "short": "Тлеукабыл Маржан Тлеукабылкызы",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-155",
+                        "short": "Тулегенов Д.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-198",
+                        "short": "Турарова Ф.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-201",
+                        "short": "Утегулов Д.Е.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-191",
+                        "short": "Ушенина  Татьяна Сергеевна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-168",
+                        "short": "Хани А.Б.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-88",
+                        "short": "Хасеинова С.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-219",
+                        "short": "Хасен Д.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-98",
+                        "short": "Хусаинова Р.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-195",
+                        "short": "Шабанова Е.А.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-4",
+                        "short": "Шагайбаева Р.Н.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-189",
+                        "short": "Шаимова А.Т.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-109",
+                        "short": "Шаймерденова Н.С.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-31",
+                        "short": "Шакен М.М.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-214",
+                        "short": "Шакирова Динара Талгатовна",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-175",
+                        "short": "Шентемирова Р.",
+                        "cb_hidden": false,
+                        "expired": false
+                    },
+                    {
+                        "id": "-111",
+                        "short": "Янгалычева М.Х.",
+                        "cb_hidden": false,
+                        "expired": false
+                    }
+                ],
+                "data_columns": [
+                    "short",
+                    "cb_hidden",
+                    "expired"
+                ]
+            },
+            {
+                "id": "subjects",
+                "def": {
+                    "id": "subjects",
+                    "name": "Предметы",
+                    "item_name": "Предмет",
+                    "icon": "/global/pics/ui/subject_32.svg"
+                },
+                "cdefs": [
+                    {
+                        "id": "name",
+                        "type": "string",
+                        "name": "Название"
+                    },
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "-149",
+                        "name": "10 кл Совместное планирование",
+                        "short": "10 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-150",
+                        "name": "11 кл Совместное планирование",
+                        "short": "11 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-151",
+                        "name": "12 кл Совместное планирование",
+                        "short": "12 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-144",
+                        "name": "5 кл Совместное ланирование",
+                        "short": "5 кл Совместное ланирование"
+                    },
+                    {
+                        "id": "-145",
+                        "name": "6 кл Совместное планирование",
+                        "short": "6 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-146",
+                        "name": "7 кл Совместное планирование",
+                        "short": "7 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-147",
+                        "name": "8 кл Совместное планирование",
+                        "short": "8 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-148",
+                        "name": "9 кл Совместное планирование",
+                        "short": "9 кл Совместное планирование"
+                    },
+                    {
+                        "id": "-120",
+                        "name": "Academic English",
+                        "short": "Academic English"
+                    },
+                    {
+                        "id": "-142",
+                        "name": "Advanced economics",
+                        "short": "Advanced economics"
+                    },
+                    {
+                        "id": "-115",
+                        "name": "Biology",
+                        "short": "Biology"
+                    },
+                    {
+                        "id": "-116",
+                        "name": "Chemistry",
+                        "short": "Chemistry"
+                    },
+                    {
+                        "id": "-109",
+                        "name": "Eco life",
+                        "short": "Eco life"
+                    },
+                    {
+                        "id": "-131",
+                        "name": "English Club",
+                        "short": "English Club"
+                    },
+                    {
+                        "id": "-130",
+                        "name": "Global Scholars",
+                        "short": "Global Scholars"
+                    },
+                    {
+                        "id": "-114",
+                        "name": "ICT",
+                        "short": "ICT"
+                    },
+                    {
+                        "id": "-126",
+                        "name": "IELTS",
+                        "short": "IELTS"
+                    },
+                    {
+                        "id": "-113",
+                        "name": "Physics",
+                        "short": "Physics"
+                    },
+                    {
+                        "id": "-129",
+                        "name": "SAT Math",
+                        "short": "SAT Math"
+                    },
+                    {
+                        "id": "-103",
+                        "name": "SAT Physics",
+                        "short": "SAT Physics"
+                    },
+                    {
+                        "id": "-112",
+                        "name": "SAT Математика",
+                        "short": "SAT Математика"
+                    },
+                    {
+                        "id": "-139",
+                        "name": "Start Up",
+                        "short": "StartUp"
+                    },
+                    {
+                        "id": "-128",
+                        "name": "Анализ текста Я1",
+                        "short": "Анализ текста Я1"
+                    },
+                    {
+                        "id": "-1",
+                        "name": "Английский язык",
+                        "short": "Англ.яз."
+                    },
+                    {
+                        "id": "-118",
+                        "name": "Арт",
+                        "short": "Арт"
+                    },
+                    {
+                        "id": "-4",
+                        "name": "Биология",
+                        "short": "Био"
+                    },
+                    {
+                        "id": "-101",
+                        "name": "Биотехнология",
+                        "short": "Биотехнология"
+                    },
+                    {
+                        "id": "-111",
+                        "name": "Быть собой и жить с другими",
+                        "short": "Быть собой и жить с другими"
+                    },
+                    {
+                        "id": "-43",
+                        "name": "Введение в науку",
+                        "short": "Введение в науку"
+                    },
+                    {
+                        "id": "-10",
+                        "name": "Всемирная история",
+                        "short": "Вс.ист."
+                    },
+                    {
+                        "id": "-5",
+                        "name": "География",
+                        "short": "Гео"
+                    },
+                    {
+                        "id": "-6",
+                        "name": "Глобальные перспективы и проектные работы",
+                        "short": "Гппр"
+                    },
+                    {
+                        "id": "-127",
+                        "name": "Грамматика второго языка",
+                        "short": "Грамматика Я2"
+                    },
+                    {
+                        "id": "-33",
+                        "name": "Графика и проектирование",
+                        "short": "ГиП"
+                    },
+                    {
+                        "id": "-154",
+                        "name": "Домен D",
+                        "short": "Домен D"
+                    },
+                    {
+                        "id": "-156",
+                        "name": "Домен F",
+                        "short": "Домен F"
+                    },
+                    {
+                        "id": "-157",
+                        "name": "Домен G",
+                        "short": "Домен G"
+                    },
+                    {
+                        "id": "-158",
+                        "name": "Домен H",
+                        "short": "Домен H"
+                    },
+                    {
+                        "id": "-159",
+                        "name": "Домен I",
+                        "short": "Домен I"
+                    },
+                    {
+                        "id": "-140",
+                        "name": "Домен А",
+                        "short": "Домен А"
+                    },
+                    {
+                        "id": "-160",
+                        "name": "Домен В",
+                        "short": "Домен В"
+                    },
+                    {
+                        "id": "-155",
+                        "name": "Домен Е",
+                        "short": "Домен Е"
+                    },
+                    {
+                        "id": "-153",
+                        "name": "Домен С",
+                        "short": "Домен С"
+                    },
+                    {
+                        "id": "-152",
+                        "name": "Доп Математика",
+                        "short": "Доп Математика"
+                    },
+                    {
+                        "id": "-94",
+                        "name": "Доп. математика",
+                        "short": "Д. матем."
+                    },
+                    {
+                        "id": "-48",
+                        "name": "Естествознание",
+                        "short": "Естествознание"
+                    },
+                    {
+                        "id": "-89",
+                        "name": "Занимательная математика",
+                        "short": "Занимательная математика"
+                    },
+                    {
+                        "id": "-8",
+                        "name": "Информатика",
+                        "short": "ИВТ"
+                    },
+                    {
+                        "id": "-141",
+                        "name": "Искусство инвестирования",
+                        "short": "Искусство инвестирования"
+                    },
+                    {
+                        "id": "-12",
+                        "name": "История Казахстана",
+                        "short": "Ист.Каз."
+                    },
+                    {
+                        "id": "-16",
+                        "name": "Казахская литература",
+                        "short": "Каз.лит-ра"
+                    },
+                    {
+                        "id": "-17",
+                        "name": "Казахский язык",
+                        "short": "Каз.яз."
+                    },
+                    {
+                        "id": "-106",
+                        "name": "Количественные характеристики",
+                        "short": "Количественные характеристики"
+                    },
+                    {
+                        "id": "-42",
+                        "name": "Кураторский час",
+                        "short": "Кур.час"
+                    },
+                    {
+                        "id": "-138",
+                        "name": "Лаборант химического анализа",
+                        "short": "Лаборант химического анализа"
+                    },
+                    {
+                        "id": "-19",
+                        "name": "Математика",
+                        "short": "Матем"
+                    },
+                    {
+                        "id": "-124",
+                        "name": "Методический час",
+                        "short": "Методический час"
+                    },
+                    {
+                        "id": "-107",
+                        "name": "Мой экологический след",
+                        "short": "Мой экологический сад"
+                    },
+                    {
+                        "id": "-22",
+                        "name": "Музыка",
+                        "short": "Муз"
+                    },
+                    {
+                        "id": "-87",
+                        "name": "Нанотехнология",
+                        "short": "Нанотехнология"
+                    },
+                    {
+                        "id": "-23",
+                        "name": "НВП",
+                        "short": "НВП"
+                    },
+                    {
+                        "id": "-137",
+                        "name": "Олимп. Биология",
+                        "short": "Олимп. Биология"
+                    },
+                    {
+                        "id": "-136",
+                        "name": "Олимп. ИВТ",
+                        "short": "Олимп. ИВТ"
+                    },
+                    {
+                        "id": "-135",
+                        "name": "Олимп. Математика",
+                        "short": "Олимп. Математика"
+                    },
+                    {
+                        "id": "-134",
+                        "name": "Олимп. Физика",
+                        "short": "Олимп. Физ"
+                    },
+                    {
+                        "id": "-133",
+                        "name": "Олимп. Химия",
+                        "short": "Олимп. Химия"
+                    },
+                    {
+                        "id": "-132",
+                        "name": "Олимп.География",
+                        "short": "Олимп.Гео "
+                    },
+                    {
+                        "id": "-24",
+                        "name": "Основы права",
+                        "short": "Огп"
+                    },
+                    {
+                        "id": "-44",
+                        "name": "Познание мира",
+                        "short": "Познание мира"
+                    },
+                    {
+                        "id": "-57",
+                        "name": "Программирование",
+                        "short": "Программирование"
+                    },
+                    {
+                        "id": "-79",
+                        "name": "Речевое творчество",
+                        "short": "Речевое творчество"
+                    },
+                    {
+                        "id": "-78",
+                        "name": "Робототехника",
+                        "short": "Робототехника"
+                    },
+                    {
+                        "id": "-25",
+                        "name": "Русская литература",
+                        "short": "Рус.лит-ра"
+                    },
+                    {
+                        "id": "-26",
+                        "name": "Русский язык",
+                        "short": "Рус.яз."
+                    },
+                    {
+                        "id": "-76",
+                        "name": "Совещание АУП",
+                        "short": "Совещание"
+                    },
+                    {
+                        "id": "-123",
+                        "name": "Совещание рук МО",
+                        "short": "Совещание рук МО"
+                    },
+                    {
+                        "id": "-122",
+                        "name": "Творческий день",
+                        "short": "Творческий день"
+                    },
+                    {
+                        "id": "-125",
+                        "name": "Туроперейтинг",
+                        "short": "Туроперейтинг"
+                    },
+                    {
+                        "id": "-105",
+                        "name": "Углубленная математика",
+                        "short": "Углубленная математика"
+                    },
+                    {
+                        "id": "-28",
+                        "name": "Физика",
+                        "short": "Физ"
+                    },
+                    {
+                        "id": "-29",
+                        "name": "Физическая культура",
+                        "short": "Физ-ра"
+                    },
+                    {
+                        "id": "-31",
+                        "name": "Химия",
+                        "short": "Хим"
+                    },
+                    {
+                        "id": "-61",
+                        "name": "Хореография",
+                        "short": "Хореография"
+                    },
+                    {
+                        "id": "-32",
+                        "name": "Экономика",
+                        "short": "Экономика"
+                    },
+                    {
+                        "id": "-2",
+                        "name": "Электив IELTS",
+                        "short": "IELTS"
+                    },
+                    {
+                        "id": "-58",
+                        "name": "Этика и психология взаимоотношений",
+                        "short": "Этика"
+                    },
+                    {
+                        "id": "-143",
+                        "name": "Юный исследователь",
+                        "short": "Юный исследователь"
+                    },
+                    {
+                        "id": "-119",
+                        "name": "Я1 НШ",
+                        "short": "Я1 НШ"
+                    }
+                ],
+                "data_columns": [
+                    "name",
+                    "short"
+                ]
+            },
+            {
+                "id": "classrooms",
+                "def": {
+                    "id": "classrooms",
+                    "name": "Кабинеты",
+                    "item_name": "Кабинет",
+                    "icon": "/global/pics/ui/classroom_32.svg"
+                },
+                "cdefs": [
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "-128",
+                        "short": "A139+"
+                    },
+                    {
+                        "id": "-129",
+                        "short": "A240-6 Кабинет музыки"
+                    },
+                    {
+                        "id": "-112",
+                        "short": "A326 Англ"
+                    },
+                    {
+                        "id": "-113",
+                        "short": "A327 Англ"
+                    },
+                    {
+                        "id": "-61",
+                        "short": "B101 Био+"
+                    },
+                    {
+                        "id": "-57",
+                        "short": "B103 Хим+"
+                    },
+                    {
+                        "id": "-58",
+                        "short": "B106 Хим"
+                    },
+                    {
+                        "id": "-62",
+                        "short": "B107 Био"
+                    },
+                    {
+                        "id": "-59",
+                        "short": "B109 Химтех"
+                    },
+                    {
+                        "id": "-139",
+                        "short": "B110 МО"
+                    },
+                    {
+                        "id": "-63",
+                        "short": "B111 Биотех"
+                    },
+                    {
+                        "id": "-60",
+                        "short": "B112 Хим"
+                    },
+                    {
+                        "id": "-65",
+                        "short": "B201 Физ+"
+                    },
+                    {
+                        "id": "-66",
+                        "short": "B203 Физ+"
+                    },
+                    {
+                        "id": "-64",
+                        "short": "B206 Био"
+                    },
+                    {
+                        "id": "-67",
+                        "short": "B207 Физ"
+                    },
+                    {
+                        "id": "-89",
+                        "short": "B208 НВП+"
+                    },
+                    {
+                        "id": "-71",
+                        "short": "B210 ИВТ(К)"
+                    },
+                    {
+                        "id": "-72",
+                        "short": "B211 ИВТ(К)"
+                    },
+                    {
+                        "id": "-68",
+                        "short": "B301 Физ+"
+                    },
+                    {
+                        "id": "-69",
+                        "short": "B303 Физ"
+                    },
+                    {
+                        "id": "-70",
+                        "short": "B306 Физ"
+                    },
+                    {
+                        "id": "-73",
+                        "short": "B307 ИВТ(К)"
+                    },
+                    {
+                        "id": "-74",
+                        "short": "B308 ИВТ (К)+"
+                    },
+                    {
+                        "id": "-75",
+                        "short": "B310 ИВТ(К)"
+                    },
+                    {
+                        "id": "-76",
+                        "short": "B311 ИВТ(К)"
+                    },
+                    {
+                        "id": "-110",
+                        "short": "C115 Ист+"
+                    },
+                    {
+                        "id": "-104",
+                        "short": "C116 нш"
+                    },
+                    {
+                        "id": "-123",
+                        "short": "C119 нш"
+                    },
+                    {
+                        "id": "-124",
+                        "short": "C120 нш+"
+                    },
+                    {
+                        "id": "-125",
+                        "short": "C122 нш+"
+                    },
+                    {
+                        "id": "-121",
+                        "short": "C123 Англ+"
+                    },
+                    {
+                        "id": "-78",
+                        "short": "C213 Мат"
+                    },
+                    {
+                        "id": "-79",
+                        "short": "C214 Мат"
+                    },
+                    {
+                        "id": "-80",
+                        "short": "C215 Мат"
+                    },
+                    {
+                        "id": "-81",
+                        "short": "C216 Мат"
+                    },
+                    {
+                        "id": "-82",
+                        "short": "C217 Мат"
+                    },
+                    {
+                        "id": "-96",
+                        "short": "C218 Рус яз +"
+                    },
+                    {
+                        "id": "-83",
+                        "short": "C219 Мат"
+                    },
+                    {
+                        "id": "-84",
+                        "short": "C220 Мат"
+                    },
+                    {
+                        "id": "-85",
+                        "short": "C221 Мат+"
+                    },
+                    {
+                        "id": "-117",
+                        "short": "C223 Англ яз +"
+                    },
+                    {
+                        "id": "-86",
+                        "short": "C224 Мат"
+                    },
+                    {
+                        "id": "-87",
+                        "short": "C225 Мат"
+                    },
+                    {
+                        "id": "-98",
+                        "short": "C313 Рус+"
+                    },
+                    {
+                        "id": "-99",
+                        "short": "C314 Рус+"
+                    },
+                    {
+                        "id": "-90",
+                        "short": "C315 Каз+"
+                    },
+                    {
+                        "id": "-100",
+                        "short": "C316 Рус+"
+                    },
+                    {
+                        "id": "-91",
+                        "short": "C317 Каз+"
+                    },
+                    {
+                        "id": "-101",
+                        "short": "C319 Рус"
+                    },
+                    {
+                        "id": "-102",
+                        "short": "C320 Рус"
+                    },
+                    {
+                        "id": "-88",
+                        "short": "C321 Мат"
+                    },
+                    {
+                        "id": "-92",
+                        "short": "C322 Каз"
+                    },
+                    {
+                        "id": "-103",
+                        "short": "C323 Рус+"
+                    },
+                    {
+                        "id": "-93",
+                        "short": "C324 Каз"
+                    },
+                    {
+                        "id": "-94",
+                        "short": "C325 Каз"
+                    },
+                    {
+                        "id": "-120",
+                        "short": "D150 Англ.яз +"
+                    },
+                    {
+                        "id": "-135",
+                        "short": "D152 НИШ Инженерия"
+                    },
+                    {
+                        "id": "-119",
+                        "short": "D154 Англ.яз +"
+                    },
+                    {
+                        "id": "-118",
+                        "short": "D155 Англ.яз"
+                    },
+                    {
+                        "id": "-95",
+                        "short": "D247 Каз яз+"
+                    },
+                    {
+                        "id": "-126",
+                        "short": "D249 Арт+"
+                    },
+                    {
+                        "id": "-127",
+                        "short": "D250 Арт (ГМ)"
+                    },
+                    {
+                        "id": "-114",
+                        "short": "D251 Англ"
+                    },
+                    {
+                        "id": "-97",
+                        "short": "D252 Каз+"
+                    },
+                    {
+                        "id": "-115",
+                        "short": "D253 Англ"
+                    },
+                    {
+                        "id": "-116",
+                        "short": "D254 Англ"
+                    },
+                    {
+                        "id": "-77",
+                        "short": "D337 ИВТ (К)"
+                    },
+                    {
+                        "id": "-107",
+                        "short": "D338 Ист"
+                    },
+                    {
+                        "id": "-105",
+                        "short": "D340 Гео+"
+                    },
+                    {
+                        "id": "-108",
+                        "short": "D341 Ист+(К)"
+                    },
+                    {
+                        "id": "-111",
+                        "short": "D342 Эконом"
+                    },
+                    {
+                        "id": "-106",
+                        "short": "D343 Гео+(К)"
+                    },
+                    {
+                        "id": "-109",
+                        "short": "D344 Ист+ ( К )"
+                    },
+                    {
+                        "id": "-140",
+                        "short": "Библиотека"
+                    },
+                    {
+                        "id": "-131",
+                        "short": "Большой спорт зал"
+                    },
+                    {
+                        "id": "-132",
+                        "short": "Большой спорт зал."
+                    },
+                    {
+                        "id": "-133",
+                        "short": "Большой спорт зал.."
+                    }
+                ],
+                "data_columns": [
+                    "short"
+                ]
+            },
+            {
+                "id": "classes",
+                "def": {
+                    "id": "classes",
+                    "name": "Классы",
+                    "item_name": "Класс",
+                    "icon": "/global/pics/ui/class_32.svg"
+                },
+                "cdefs": [
+                    {
+                        "id": "name",
+                        "type": "string",
+                        "name": "Название"
+                    },
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "-138",
+                        "name": "10e",
+                        "short": "10e"
+                    },
+                    {
+                        "id": "-139",
+                        "name": "10f",
+                        "short": "10f"
+                    },
+                    {
+                        "id": "-144",
+                        "name": "11e",
+                        "short": "11e"
+                    },
+                    {
+                        "id": "-109",
+                        "name": "5a",
+                        "short": "5a"
+                    },
+                    {
+                        "id": "-110",
+                        "name": "5b",
+                        "short": "5b"
+                    },
+                    {
+                        "id": "-111",
+                        "name": "5c",
+                        "short": "5c"
+                    },
+                    {
+                        "id": "-120",
+                        "name": "7f",
+                        "short": "7f"
+                    },
+                    {
+                        "id": "-121",
+                        "name": "7g",
+                        "short": "7g"
+                    },
+                    {
+                        "id": "-122",
+                        "name": "7h",
+                        "short": "7h"
+                    },
+                    {
+                        "id": "-127",
+                        "name": "8e",
+                        "short": "8e"
+                    },
+                    {
+                        "id": "-128",
+                        "name": "8f",
+                        "short": "8f"
+                    },
+                    {
+                        "id": "-133",
+                        "name": "9e",
+                        "short": "9e"
+                    },
+                    {
+                        "id": "-150",
+                        "name": "АУП",
+                        "short": "АУП"
+                    },
+                    {
+                        "id": "-112",
+                        "name": "6a",
+                        "short": "6a"
+                    },
+                    {
+                        "id": "-113",
+                        "name": "6b",
+                        "short": "6b"
+                    },
+                    {
+                        "id": "-114",
+                        "name": "6c",
+                        "short": "6c"
+                    },
+                    {
+                        "id": "-115",
+                        "name": "7a",
+                        "short": "7a"
+                    },
+                    {
+                        "id": "-116",
+                        "name": "7b",
+                        "short": "7b"
+                    },
+                    {
+                        "id": "-117",
+                        "name": "7c",
+                        "short": "7c"
+                    },
+                    {
+                        "id": "-118",
+                        "name": "7d",
+                        "short": "7d"
+                    },
+                    {
+                        "id": "-119",
+                        "name": "7e",
+                        "short": "7e"
+                    },
+                    {
+                        "id": "-123",
+                        "name": "8a",
+                        "short": "8a"
+                    },
+                    {
+                        "id": "-124",
+                        "name": "8b",
+                        "short": "8b"
+                    },
+                    {
+                        "id": "-125",
+                        "name": "8c",
+                        "short": "8c"
+                    },
+                    {
+                        "id": "-126",
+                        "name": "8d",
+                        "short": "8d"
+                    },
+                    {
+                        "id": "-129",
+                        "name": "9a",
+                        "short": "9a"
+                    },
+                    {
+                        "id": "-130",
+                        "name": "9b",
+                        "short": "9b"
+                    },
+                    {
+                        "id": "-131",
+                        "name": "9c",
+                        "short": "9c"
+                    },
+                    {
+                        "id": "-132",
+                        "name": "9d",
+                        "short": "9d"
+                    },
+                    {
+                        "id": "-134",
+                        "name": "10a",
+                        "short": "10a"
+                    },
+                    {
+                        "id": "-135",
+                        "name": "10b",
+                        "short": "10b"
+                    },
+                    {
+                        "id": "-136",
+                        "name": "10c",
+                        "short": "10c"
+                    },
+                    {
+                        "id": "-137",
+                        "name": "10d",
+                        "short": "10d"
+                    },
+                    {
+                        "id": "-140",
+                        "name": "11a",
+                        "short": "11a"
+                    },
+                    {
+                        "id": "-141",
+                        "name": "11b",
+                        "short": "11b"
+                    },
+                    {
+                        "id": "-142",
+                        "name": "11c",
+                        "short": "11c"
+                    },
+                    {
+                        "id": "-143",
+                        "name": "11d",
+                        "short": "11d"
+                    },
+                    {
+                        "id": "-145",
+                        "name": "12a",
+                        "short": "12a"
+                    },
+                    {
+                        "id": "-146",
+                        "name": "12b",
+                        "short": "12b"
+                    },
+                    {
+                        "id": "-147",
+                        "name": "12c",
+                        "short": "12c"
+                    },
+                    {
+                        "id": "-148",
+                        "name": "12d",
+                        "short": "12d"
+                    }
+                ],
+                "data_columns": [
+                    "name",
+                    "short"
+                ]
+            },
+            {
+                "id": "students",
+                "def": {
+                    "id": "students",
+                    "name": "Учащиеся",
+                    "item_name": "Учащийся",
+                    "icon": "/global/pics/ui/student_32.svg",
+                    "name_cols": [
+                        "FSL",
+                        "LCF",
+                        "LSF",
+                        "PFSL",
+                        "PFSLX",
+                        "LCFP",
+                        "LSFP",
+                        "LSFCP",
+                        "PLSF"
+                    ]
+                },
+                "cdefs": [],
+                "_uial": 0
+            },
+            {
+                "id": "igroups",
+                "def": {
+                    "id": "igroups",
+                    "name": "Группы по интересам",
+                    "item_name": "Группа по интересам",
+                    "icon": "/global/pics/ui/igroup_32.svg"
+                },
+                "cdefs": [
+                    {
+                        "id": "name",
+                        "type": "string",
+                        "name": "Название"
+                    },
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [],
+                "data_columns": [
+                    "name",
+                    "short"
+                ]
+            },
+            {
+                "id": "periods",
+                "def": {
+                    "id": "periods",
+                    "name": "Периоды",
+                    "item_name": "Период",
+                    "icon": "/global/pics/ui/time_32.svg",
+                    "multikey": [
+                        "period"
+                    ]
+                },
+                "cdefs": [
+                    {
+                        "id": "name",
+                        "type": "string",
+                        "name": "Название"
+                    },
+                    {
+                        "id": "short",
+                        "type": "string",
+                        "name": "Сокращение"
+                    },
+                    {
+                        "id": "period",
+                        "type": "tableid",
+                        "name": "Период",
+                        "table": "periods"
+                    },
+                    {
+                        "id": "starttime",
+                        "type": "time",
+                        "name": "Начинается"
+                    },
+                    {
+                        "id": "endtime",
+                        "type": "time",
+                        "name": "Заканчивается"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "0",
+                        "name": "0",
+                        "short": "0",
+                        "period": "0",
+                        "starttime": "08:15",
+                        "endtime": "08:55"
+                    },
+                    {
+                        "id": "1",
+                        "name": "1",
+                        "short": "1",
+                        "period": "1",
+                        "starttime": "08:15",
+                        "endtime": "08:55"
+                    },
+                    {
+                        "id": "2",
+                        "name": "2",
+                        "short": "2",
+                        "period": "2",
+                        "starttime": "09:10",
+                        "endtime": "09:50"
+                    },
+                    {
+                        "id": "3",
+                        "name": "3",
+                        "short": "3",
+                        "period": "3",
+                        "starttime": "10:00",
+                        "endtime": "10:40"
+                    },
+                    {
+                        "id": "4",
+                        "name": "4",
+                        "short": "4",
+                        "period": "4",
+                        "starttime": "10:45",
+                        "endtime": "11:25"
+                    },
+                    {
+                        "id": "5",
+                        "name": "5",
+                        "short": "5",
+                        "period": "5",
+                        "starttime": "11:50",
+                        "endtime": "12:30"
+                    },
+                    {
+                        "id": "6",
+                        "name": "6",
+                        "short": "6",
+                        "period": "6",
+                        "starttime": "12:35",
+                        "endtime": "13:15"
+                    },
+                    {
+                        "id": "7",
+                        "name": "7",
+                        "short": "7",
+                        "period": "7",
+                        "starttime": "13:35",
+                        "endtime": "14:15"
+                    },
+                    {
+                        "id": "8",
+                        "name": "8",
+                        "short": "8",
+                        "period": "8",
+                        "starttime": "14:25",
+                        "endtime": "15:05"
+                    },
+                    {
+                        "id": "9",
+                        "name": "9",
+                        "short": "9",
+                        "period": "9",
+                        "starttime": "15:15",
+                        "endtime": "15:55"
+                    },
+                    {
+                        "id": "10",
+                        "name": "10",
+                        "short": "10",
+                        "period": "10",
+                        "starttime": "16:00",
+                        "endtime": "16:40"
+                    },
+                    {
+                        "id": "11",
+                        "name": "11",
+                        "short": "11",
+                        "period": "11",
+                        "starttime": "16:45",
+                        "endtime": "17:25"
+                    }
+                ],
+                "data_columns": [
+                    "name",
+                    "short",
+                    "period",
+                    "starttime",
+                    "endtime"
+                ]
+            },
+            {
+                "id": "dayparts",
+                "def": {
+                    "id": "dayparts",
+                    "name": "Части дня",
+                    "item_name": "Часть дня",
+                    "icon": "/global/pics/ui/time_32.png",
+                    "multikey": [
+                        "daypart"
+                    ]
+                },
+                "cdefs": [
+                    {
+                        "id": "starttime",
+                        "type": "time",
+                        "name": "Начинается"
+                    },
+                    {
+                        "id": "endtime",
+                        "type": "time",
+                        "name": "Заканчивается"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "h1",
+                        "starttime": "08:00",
+                        "endtime": "12:00"
+                    },
+                    {
+                        "id": "h2",
+                        "starttime": "12:00",
+                        "endtime": "16:00"
+                    },
+                    {
+                        "id": "h3",
+                        "starttime": "16:00",
+                        "endtime": "20:00"
+                    }
+                ],
+                "data_columns": [
+                    "starttime",
+                    "endtime"
+                ]
+            },
+            {
+                "id": "dates",
+                "def": {
+                    "id": "dates",
+                    "name": "Даты",
+                    "item_name": "Дата",
+                    "icon": "/global/pics/ui/calendar_32.png",
+                    "multikey": [
+                        "date"
+                    ],
+                    "vt_filter": [
+                        "date"
+                    ]
+                },
+                "cdefs": [
+                    {
+                        "id": "tt_num",
+                        "type": "tableid",
+                        "name": "tt_num",
+                        "table": "officialetimetables"
+                    },
+                    {
+                        "id": "tt_day",
+                        "type": "int",
+                        "name": "tt_day"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "2023-10-09",
+                        "tt_num": "216",
+                        "tt_day": 0
+                    },
+                    {
+                        "id": "2023-10-10",
+                        "tt_num": "216",
+                        "tt_day": 1
+                    },
+                    {
+                        "id": "2023-10-11",
+                        "tt_num": "216",
+                        "tt_day": 2
+                    },
+                    {
+                        "id": "2023-10-12",
+                        "tt_num": "216",
+                        "tt_day": 3
+                    },
+                    {
+                        "id": "2023-10-13",
+                        "tt_num": "216",
+                        "tt_day": 4
+                    },
+                    {
+                        "id": "2023-10-14",
+                        "tt_num": "216",
+                        "tt_day": -1
+                    },
+                    {
+                        "id": "2023-10-15",
+                        "tt_num": "216",
+                        "tt_day": -1
+                    }
+                ],
+                "data_columns": [
+                    "tt_num",
+                    "tt_day"
+                ]
+            },
+            {
+                "id": "events",
+                "def": {
+                    "id": "events",
+                    "name": "События",
+                    "item_name": "Событие",
+                    "icon": "/global/pics/ui/events_32.svg",
+                    "multikey": [
+                        "date",
+                        "subId"
+                    ],
+                    "vt_filter": [
+                        "date"
+                    ]
+                },
+                "cdefs": [
+                    {
+                        "id": "typ",
+                        "type": "tableid",
+                        "name": "Тип события",
+                        "table": "event_types"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "2023-10-12:6F5F2AE13D267967",
+                        "typ": "meeting"
+                    },
+                    {
+                        "id": "2023-10-13:A7116F1E4FDE7452",
+                        "typ": "meeting"
+                    },
+                    {
+                        "id": "2023-10-13:B1BCF37A5CF46888",
+                        "typ": "meeting"
+                    },
+                    {
+                        "id": "2023-10-13:E2D8B74624B4DB88",
+                        "typ": "meeting"
+                    },
+                    {
+                        "id": "2023-10-14:1487ACBB7C4B59D0",
+                        "typ": "rlesson"
+                    }
+                ],
+                "data_columns": [
+                    "typ"
+                ]
+            },
+            {
+                "id": "event_types",
+                "def": {
+                    "id": "event_types",
+                    "name": "Типы событий",
+                    "item_name": "Тип события",
+                    "icon": "/global/pics/ui/events_32.svg"
+                },
+                "cdefs": [
+                    {
+                        "id": "name",
+                        "type": "string",
+                        "name": "Название"
+                    },
+                    {
+                        "id": "icon",
+                        "type": "string",
+                        "name": "icon"
+                    }
+                ],
+                "_uial": 0,
+                "data_rows": [
+                    {
+                        "id": "ttcancel",
+                        "name": "Отменено обучение",
+                        "icon": "/calendar/pics/event_types/ttcancel_32.svg"
+                    },
+                    {
+                        "id": "holiday",
+                        "name": "Праздник",
+                        "icon": "/calendar/pics/event_types/holiday_32.svg"
+                    },
+                    {
+                        "id": "sholiday",
+                        "name": "Школьные каникулы",
+                        "icon": "/calendar/pics/event_types/sholiday_32.svg"
+                    },
+                    {
+                        "id": "freeday",
+                        "name": "Свободный день",
+                        "icon": "/calendar/pics/event_types/freeday_32.svg"
+                    },
+                    {
+                        "id": "distant",
+                        "name": "Дистанционное обучение",
+                        "icon": "/calendar/pics/event_types/distant_32.svg"
+                    },
+                    {
+                        "id": "lesson",
+                        "name": "Урок",
+                        "icon": "/global/pics/ui/subject_32.svg"
+                    },
+                    {
+                        "id": "plesson",
+                        "name": "Проект урока",
+                        "icon": "/global/pics/ui/subject_32.svg"
+                    },
+                    {
+                        "id": "rlesson",
+                        "name": "Дополнительный урок",
+                        "icon": "/global/pics/ui/subject_32.svg"
+                    },
+                    {
+                        "id": "ctlesson",
+                        "name": "Уроки с классными руководителями",
+                        "icon": "/global/pics/ui/subject_32.svg"
+                    },
+                    {
+                        "id": "schoolevent",
+                        "name": "Событие в школе",
+                        "icon": "/global/pics/ui/events_32.svg"
+                    },
+                    {
+                        "id": "trip",
+                        "name": "Экскурсия",
+                        "icon": "/calendar/pics/event_types/trip_32.svg"
+                    },
+                    {
+                        "id": "culture",
+                        "name": "Культурное событие",
+                        "icon": "/calendar/pics/event_types/culture_32.svg"
+                    },
+                    {
+                        "id": "excursion",
+                        "name": "Экскурсия",
+                        "icon": "/calendar/pics/event_types/excursion_32.svg"
+                    },
+                    {
+                        "id": "ctevent",
+                        "name": "Событие с учителем класса",
+                        "icon": "/global/pics/ui/events_32.svg"
+                    },
+                    {
+                        "id": "testing",
+                        "name": "Тестирование производительности",
+                        "icon": "/exam/pics/hw/testing_c1.png"
+                    },
+                    {
+                        "id": "bexam",
+                        "name": "Большой экзамен",
+                        "icon": "/exam/pics/hw/bexam_c1.png"
+                    },
+                    {
+                        "id": "exam",
+                        "name": "Экзамен",
+                        "icon": "/exam/pics/hw/exam_c1.png"
+                    },
+                    {
+                        "id": "sexam",
+                        "name": "Тест",
+                        "icon": "/exam/pics/hw/sexam_c1.png"
+                    },
+                    {
+                        "id": "oexam",
+                        "name": "Устный экзамен",
+                        "icon": "/exam/pics/hw/oexam_c1.png"
+                    },
+                    {
+                        "id": "rexam",
+                        "name": "Доклад",
+                        "icon": "/exam/pics/hw/rexam_c1.png"
+                    },
+                    {
+                        "id": "pexam",
+                        "name": "Проект",
+                        "icon": "/exam/pics/hw/pexam_c1.png"
+                    },
+                    {
+                        "id": "meeting",
+                        "name": "Совещание учителей",
+                        "icon": "/calendar/pics/event_types/meeting_32.svg"
+                    },
+                    {
+                        "id": "bmeeting",
+                        "name": "Конференция учителей",
+                        "icon": "/calendar/pics/event_types/bmeeting_32.svg"
+                    },
+                    {
+                        "id": "bookroom",
+                        "name": "Зарезервированный кабинет",
+                        "icon": "/calendar/pics/event_types/bookroom_32.svg"
+                    },
+                    {
+                        "id": "changeroom",
+                        "name": "Изменить кабинет",
+                        "icon": "/calendar/pics/event_types/changeroom_32.svg"
+                    },
+                    {
+                        "id": "other",
+                        "name": "Другое событие",
+                        "icon": "/global/pics/ui/events_32.svg"
+                    },
+                    {
+                        "id": "other_safety",
+                        "name": "Правила безопасности",
+                        "icon": "/calendar/pics/event_types/other_safety_32.svg"
+                    },
+                    {
+                        "id": "parentsevening",
+                        "name": "Родительский вечер",
+                        "icon": "/calendar/pics/event_types/parentsevening_32.svg"
+                    },
+                    {
+                        "id": "other_cb",
+                        "name": "Классный журнал",
+                        "icon": "/global/pics/ui/events_32.svg"
+                    },
+                    {
+                        "id": "representation",
+                        "name": "Представитель",
+                        "icon": "/global/pics/ui/events_32.svg"
+                    }
+                ],
+                "data_columns": [
+                    "name",
+                    "icon"
+                ]
+            },
+            {
+                "id": "subst_absents",
+                "def": {
+                    "id": "subst_absents",
+                    "name": "Отсутствует",
+                    "item_name": "Отсутствует",
+                    "icon": "/global/pics/ui/absent_32.svg",
+                    "multikey": [
+                        "date",
+                        "subId"
+                    ],
+                    "vt_filter": [
+                        "date"
+                    ]
+                },
+                "cdefs": [],
+                "_uial": 0
+            }
+        ],
+        "changeEvents": {
+            "dbi:teachers": 6322848,
+            "dbi:subjects": 5941085,
+            "dbi:classrooms": 3812221,
+            "dbi:classes": 8566811,
+            "dbi:igroups": 7420236,
+            "dbi:groupsubjects": 1360113,
+            "dbi:old_igroups": 6810018,
+            "dbi:periods": 8598828,
+            "dbi:dayparts": 5505717,
+            "dbi:dates": 7286443,
+            "dbi:event_types": 4904987,
+            "dbi:events.2023-10": 1284913,
+            "dbi:halves": 5622530,
+            "dbi:officialtimetables": 4698051,
+            "timetables": 5635253,
+            "dbi:timetables": 5416296
+        }
+    }
+}
