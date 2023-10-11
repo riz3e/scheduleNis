@@ -18,15 +18,37 @@ def checkDB():
         conn.commit()
 
 
-def add_subj(id: str, name: str, short: str):
+def add_subj(id: int, name: str, short: str):
     with sqlite3.Connection(connection_file) as conn:
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO orders VALUES (?, ?, ?)", (id, name, short))
+        cursor.execute("INSERT INTO subjects VALUES (?, ?, ?)", (id, name, short))
         conn.commit()
+
+
 # print(len(subjectsjson))
-for i in range(len(subjectsjson)):
-    # print(subjectsjson[i])
-    subjdat = subjectsjson[i]
+
+def convertJsonToDB():
+    try:
+        for i in range(len(subjectsjson)):
+            subjdat = subjectsjson[i]
+            add_subj(int(subjdat["id"]), subjdat["name"], subjdat["short"])
+    except Exception as ex:
+        print(ex)
+
+
+def deleteDB(table_name: str):
+    try:
+        with sqlite3.connect('your_database.db') as conn:
+            cursor = conn.cursor()
+
+            # Execute the DROP TABLE statement
+            cursor.execute(f'DROP TABLE IF EXISTS {table_name}')
+
+            # Commit the changes and close the connection
+            conn.commit()
+            conn.close()
+    except Exception as ex:
+        print(ex)
 
 
 checkDB()
