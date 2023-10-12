@@ -4,10 +4,11 @@ import sqlite3
 connection_file = "main.db"
 table_name = "classes"
 
-with open("test.json", 'r', encoding='utf-8') as file:
-    data = json.load(file)
+if __name__ == "__main__":
+    with open("test.json", 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-classesjson = data["r"]["tables"][3]["data_rows"]
+    classesjson = data["r"]["tables"][3]["data_rows"]
 
 
 def checkDB(table_name: str = table_name):
@@ -52,6 +53,6 @@ def deleteDB(table_name: str = table_name):
     except Exception as ex:
         print(ex)
 
-
-checkDB()
-# convertJsonToDB()
+if __name__ == "__main__":
+    checkDB()
+    # convertJsonToDB()

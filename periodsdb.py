@@ -4,10 +4,11 @@ import sqlite3
 connection_file = "main.db"
 table_name = "periods"
 
-with open("test.json", 'r', encoding='utf-8') as file:
-    data = json.load(file)
+if __name__ == "__main__":
+    with open("test.json", 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-periodsjson = data["r"]["tables"][6]["data_rows"]
+    periodsjson = data["r"]["tables"][6]["data_rows"]
 
 
 def checkDB(table_name: str = table_name):
@@ -38,6 +39,7 @@ def convertJsonToDB():
     except Exception as ex:
         print(ex)
 
+
 # Deleting the DB in case something changed in the NIS schedule site, so we can update our DB
 def deleteDB(table_name: str = table_name):
     try:
@@ -54,5 +56,6 @@ def deleteDB(table_name: str = table_name):
         print(ex)
 
 
-checkDB()
-convertJsonToDB()
+if __name__ == "__main__":
+    checkDB()
+    # convertJsonToDB()
