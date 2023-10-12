@@ -39,7 +39,7 @@ def convertJsonToDB():
 # Deleting the DB in case something changed in the NIS schedule site, so we can update our DB
 def deleteDB(table_name: str = table_name):
     try:
-        with sqlite3.connect('your_database.db') as conn:
+        with sqlite3.connect(connection_file) as conn:
             cursor = conn.cursor()
 
             # Execute the DROP TABLE statement

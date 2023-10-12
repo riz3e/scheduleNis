@@ -2,12 +2,12 @@ import json
 import sqlite3
 
 connection_file = "main.db"
-table_name = "classes"
+table_name = "periods"
 
 with open("test.json", 'r', encoding='utf-8') as file:
     data = json.load(file)
 
-classesjson = data["r"]["tables"][3]["data_rows"]
+periodsjson = data["r"]["tables"][6]["data_rows"]
 
 
 def checkDB(table_name: str = table_name):
@@ -16,31 +16,32 @@ def checkDB(table_name: str = table_name):
         cursor.execute(f'''CREATE TABLE IF NOT EXISTS {table_name} 
         (id INT,
          name TEXT,
-         short TEXT)''')
+         starttime TEXT, 
+         endtime TEXT)''')
         conn.commit()
 
 
 # To add items into the db
-def add_subj(id: int, name: str, short: str, table_name: str = table_name):
+def add_subj(id: int, name: str, starttime: str, endtime: str, table_name: str = table_name):
     with sqlite3.Connection(connection_file) as conn:
         cursor = conn.cursor()
-        cursor.execute(f"INSERT INTO {table_name} VALUES (?, ?, ?)", (id, name, short))
+        cursor.execute(f"INSERT INTO {table_name} VALUES (?, ?, ?, ?)", (id, name, starttime, endtime))
         conn.commit()
 
 
 # converting the JSON-file to DB
 def convertJsonToDB():
     try:
-        for i in range(len(classesjson)):
-            subjdat = classesjson[i]
-            add_subj(int(subjdat["id"]), subjdat["name"], subjdat["short"])
+        for i in range(len(periodsjson)):
+            subjdat = periodsjson[i]
+            add_subj(int(subjdat["id"]), subjdat["name"], subjdat["starttime"], subjdat["endtime"])
     except Exception as ex:
         print(ex)
 
 # Deleting the DB in case something changed in the NIS schedule site, so we can update our DB
 def deleteDB(table_name: str = table_name):
     try:
-        with sqlite3.connect(connection_file) as conn:
+        with sqlite3.connect('your_database.db') as conn:
             cursor = conn.cursor()
 
             # Execute the DROP TABLE statement
@@ -54,4 +55,4 @@ def deleteDB(table_name: str = table_name):
 
 
 checkDB()
-# convertJsonToDB()
+convertJsonToDB()
