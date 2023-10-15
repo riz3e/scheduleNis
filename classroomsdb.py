@@ -21,11 +21,20 @@ def checkDB(table_name: str = table_name):
 
 
 # To add items into the db
-def add_subj(id: int, short: str, table_name: str = table_name):
+def add_item(id: int, name: str, short: str, table_name: str = table_name):
     with sqlite3.Connection(connection_file) as conn:
         cursor = conn.cursor()
-        cursor.execute(f"INSERT INTO {table_name} VALUES (?, ?)", (id, short))
+        cursor.execute(f"INSERT INTO {table_name} VALUES (?, ?, ?)", (id, name, short))
         conn.commit()
+
+
+# param - responsible for the column name, value - is value of the specific param
+def get_item(param: str, value):
+    with sqlite3.Connection(table_name) as conn:
+        cursor = conn.cursor()
+        cursor.execute(f"SELECT * FROM {table_name} WHERE {param} = ?", (value,))
+        item = cursor.fetchone()
+        return item
 
 
 # converting the JSON-file to DB
@@ -33,9 +42,10 @@ def convertJsonToDB():
     try:
         for i in range(len(classroomsjson)):
             subjdat = classroomsjson[i]
-            add_subj(int(subjdat["id"]), subjdat["short"])
+            add_item(int(subjdat["id"]), subjdat["short"])
     except Exception as ex:
         print(ex)
+
 
 # Deleting the DB in case something changed in the NIS schedule site, so we can update our DB
 def deleteDB(table_name: str = table_name):
@@ -51,6 +61,7 @@ def deleteDB(table_name: str = table_name):
             conn.close()
     except Exception as ex:
         print(ex)
+
 
 if __name__ == "__main__":
     checkDB()

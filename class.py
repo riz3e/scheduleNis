@@ -5,7 +5,8 @@ from datetime import datetime, timedelta
 url = "https://nistaldykorgan.edupage.org/timetable/server/currenttt.js?__func=curentttGetData"
 classid = "-140"
 
-def request_tt(classid = classid):
+
+def request_tt(classid=classid):
     # Get the current date
     current_date = datetime.now()
     # Calculate the start of the current week (usually Sunday)
@@ -50,11 +51,63 @@ def request_tt(classid = classid):
     if response.status_code == 200:
         data = response.json()
         # print(json.dumps(data, indent=4))
-        with open(f"data/{classid}.json","w") as file:
-            file.write(json.dumps(data, indent=4))
+        with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
+            file.write(json.dumps(data, indent=4, ensure_ascii=False))
 
     else:
         print(f"Failed to retrieve data. Status code: {response.status_code}")
 
+
+# with open("data/-140.json", "r") as file:
+#     timetable = file.read()['r']['ttitemes']
+
+
 if __name__ == "__main__":
-    request_tt()
+    # request_tt()
+    with open("data/-140.json", "r", encoding="utf-8") as file:
+        timetable = file.read()
+    timetable = json.loads(timetable)
+    # timetable = json.dumps(timetable['r']['ttitems'], indent=4, ensure_ascii=False)
+    # print(json.dumps(timetable, indent=4, ensure_ascii=False))
+    # print(len(timetable['r']['ttitems']))
+
+    timetable = timetable['r']['ttitems']
+    for i in range(len(timetable)):
+        # try:
+        # print(timetable[i]["subjectid"])
+        date = timetable[i]['date']  # cell's current day
+        uniperiod = timetable[i]['uniperiod']  # lesson number, e.g. 5 means that this cell starts from the 5 lesson
+        starttime = timetable[i]['starttime']  # e.g. 08:15 for the 1st lesson
+        endtime = timetable[i]['endtime']  # e.g. 09:50 for the 1st lesson
+        subjectid = timetable[i]['subjectid']
+        classids = timetable[i]['classids']  # a list of classes that have this lesson
+        try:
+            groupnames = timetable[i]['groupnames'][0]  # e.g. 2 группа
+        except:
+            groupnames = ''
+        try:
+            teacherids = timetable[i]['teacherids'][0]
+        except:
+            teacherids = ''
+        try:
+            colors = timetable[i]['colors'][0]  # color of the cell, e.g. #FFC000
+        except:
+            colors = "#FFFFE6"
+        try:
+            classroomids = timetable[i]['classroomids'][0]  # id of a classroom
+        except:
+            classroomids = ''
+
+        try:
+            durationperiods = timetable[i][
+                'durationperiods']  # duration of the lesson, e.g. if the uniperiod = 3 and durationperiods = 2, it means that the lesson will be from 3 to 4th lesson time
+        except:
+            durationperiods = '1'
+        try:
+            cellSlices = timetable[i]['cellSlices']  # For now, forget it
+            cellOrder = timetable[i]['cellOrder']  # For now, forget it
+        except Exception as ex:
+            cellSlices = ''
+            cellOrder = ''
+        print(
+            f"date={date}, uniperiod={uniperiod}, starttime={starttime}, endtime={endtime}, subjectid={subjectid}, classids={classids}, groupnames={groupnames}, teacherids={teacherids}, classroomids={classroomids}, colors={colors}, durationperiods={durationperiods}, cellSlices={cellSlices}, cellOrder={cellOrder}")
