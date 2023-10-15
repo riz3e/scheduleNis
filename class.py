@@ -2,6 +2,8 @@ import json
 import requests
 from datetime import datetime, timedelta
 
+import teachersdb
+
 url = "https://nistaldykorgan.edupage.org/timetable/server/currenttt.js?__func=curentttGetData"
 classid = "-140"
 
@@ -109,5 +111,11 @@ if __name__ == "__main__":
         except Exception as ex:
             cellSlices = ''
             cellOrder = ''
-        print(
-            f"date={date}, uniperiod={uniperiod}, starttime={starttime}, endtime={endtime}, subjectid={subjectid}, classids={classids}, groupnames={groupnames}, teacherids={teacherids}, classroomids={classroomids}, colors={colors}, durationperiods={durationperiods}, cellSlices={cellSlices}, cellOrder={cellOrder}")
+        # print(
+        #     f"date={date}, uniperiod={uniperiod}, starttime={starttime}, endtime={endtime}, subjectid={subjectid}, classids={classids}, groupnames={groupnames}, teacherids={teacherids}, classroomids={classroomids}, colors={colors}, durationperiods={durationperiods}, cellSlices={cellSlices}, cellOrder={cellOrder}")
+
+        # TODO: translate the id-s to their values in DB:
+        #  teacherids, classroomids, classids, subjectid
+        if(teacherids != ""):
+            item = teachersdb.get_item(param="id", value=teacherids)
+            print(item)

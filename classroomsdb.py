@@ -30,7 +30,7 @@ def add_item(id: int, name: str, short: str, table_name: str = table_name):
 
 # param - responsible for the column name, value - is value of the specific param
 def get_item(param: str, value):
-    with sqlite3.Connection(table_name) as conn:
+    with sqlite3.Connection(connection_file) as conn:
         cursor = conn.cursor()
         cursor.execute(f"SELECT * FROM {table_name} WHERE {param} = ?", (value,))
         item = cursor.fetchone()
