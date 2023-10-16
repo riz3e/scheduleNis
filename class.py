@@ -2,6 +2,9 @@ import json
 import requests
 from datetime import datetime, timedelta
 
+import classesdb
+import classroomsdb
+import subjectsdb
 import teachersdb
 
 url = "https://nistaldykorgan.edupage.org/timetable/server/currenttt.js?__func=curentttGetData"
@@ -51,7 +54,7 @@ def request_tt(classid=classid):
     response = requests.post(url=url, data=json.dumps(payload), headers=headers)
 
     if response.status_code == 200:
-        data = response.json()
+        data = response.json()["r"]['ttitems']
         # print(json.dumps(data, indent=4))
         with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
             file.write(json.dumps(data, indent=4, ensure_ascii=False))
@@ -116,6 +119,56 @@ if __name__ == "__main__":
 
         # TODO: translate the id-s to their values in DB:
         #  teacherids, classroomids, classids, subjectid
-        if(teacherids != ""):
+
+        # teacherids
+        if (teacherids != ""):
             item = teachersdb.get_item(param="id", value=teacherids)
+            if (item == None):
+                item = ""
+            else:
+                item = item[1]
             print(item)
+            timetable[i]['teacherids'] = item
+
+        # classroomids
+        if (classroomids != ""):
+            item = classroomsdb.get_item(param="id", value=classroomids)
+            if (item == None):
+                item = ""
+            else:
+                item = item[1]
+            print(item)
+            timetable[i]['classroomids'] = item
+
+            # classroomids
+        if (classroomids != ""):
+            item = classroomsdb.get_item(param="id", value=classroomids)
+            if (item == None):
+                item = ""
+            else:
+                item = item[1]
+            print(item)
+            timetable[i]['classroomids'] = item
+
+            # classids
+        if (classids != []):
+            for j in range(len(classids)):
+                item = classesdb.get_item(param="id", value=(classids[j]))
+                if (item == None):
+                    item = ""
+                else:
+                    item = item[1]
+                timetable[i]['classids'][j] = item
+            # print(item)
+            # timetable[i]['classids'] = item
+
+            # subjectid
+        if (subjectid != ""):
+            item = subjectsdb.get_item(param="id", value=subjectid)
+            if (item == None):
+                item = ""
+            else:
+                item = item[1]
+            print(item)
+            timetable[i]['subjectid'] = item
+    print(json.dumps(timetable, indent=4, ensure_ascii=False))
