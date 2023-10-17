@@ -78,6 +78,12 @@ def translate_id_to_names_json():
     timetable = json.loads(timetable)
 
     for i in range(len(timetable)):
+        try:
+            timetable[i].pop("type")
+            timetable[i].pop("igroupid")
+        except Exception as ex:
+            print("pop problem", ex)
+
         subjectid = timetable[i]['subjectid']
         classids = timetable[i]['classids']  # a list of classes that have this lesson
         timetable[i]['groupnames'] = timetable[i]['groupnames'][0]
@@ -121,7 +127,7 @@ def translate_id_to_names_json():
                 item = ""
             else:
                 item = item[1]
-            print(item)
+            # print(item)
             timetable[i]['teacherids'] = item
 
             # classroomids
@@ -157,22 +163,21 @@ def translate_id_to_names_json():
         file.write(json.dumps(timetable, indent=4, ensure_ascii=False))
 
 
+# if __name__ == "__main__":
+#     request_tt()
+#     translate_id_to_names_json()
+
 if __name__ == "__main__":
     request_tt()
     translate_id_to_names_json()
-    with open("data/-140.json", "r", encoding="utf-8") as file:
-        timetable = file.read()
-    timetable = json.loads(timetable)
-    # timetable = json.dumps(timetable['r']['ttitems'], indent=4, ensure_ascii=False)
-    # print(json.dumps(timetable, indent=4, ensure_ascii=False))
-    # print(len(timetable['r']['ttitems']))
+    with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
+        timetable = json.loads(file.read())
 
     fixed_timetable = []
+    # previous_date = timetable[0]['date']
+    previous_date = ""
+    daycount = -1  # fixed timetable's iterator (j = 0 means monday, j = 1 means tuesday and etc.
 
-    # previous_date = timetable['r']['ttitems'][0]['date']
-    previous_date = timetable[0]['date']
-
-    # timetable = timetable['r']['ttitems']
     for i in range(len(timetable)):
         date = timetable[i]['date']  # cell's current day
         uniperiod = timetable[i]['uniperiod']  # lesson number, e.g. 5 means that this cell starts from the 5 lesson
@@ -180,101 +185,49 @@ if __name__ == "__main__":
         endtime = timetable[i]['endtime']  # e.g. 09:50 for the 1st lesson
         subjectid = timetable[i]['subjectid']
         classids = timetable[i]['classids']  # a list of classes that have this lesson
-        try:
-            groupnames = timetable[i]['groupnames'][0]  # e.g. 2 группа
-            timetable[i]['groupnames'] = timetable[i]['groupnames'][0]
-        except:
-            groupnames = ''
-        try:
-            teacherids = timetable[i]['teacherids'][0]
-        except:
-            teacherids = ''
-        try:
-            colors = timetable[i]['colors'][0]  # color of the cell, e.g. #FFC000
-            timetable[i]['colors'] = timetable[i]['colors'][0]
-        except:
-            colors = "#FFFFE6"
-            timetable[i]['colors'] = "#FFFFE6"
+        groupnames = timetable[i]['groupnames']  # e.g. 2 группа
+        teacherids = timetable[i]['teacherids']
+        colors = timetable[i]['colors']  # color of the cell, e.g. #FFC000
+        classroomids = timetable[i]['classroomids']  # id of a classroom
+        durationperiods = timetable[i]['durationperiods']
+        # duration of the lesson, e.g. if the uniperiod = 3 and durationperiods = 2,
+        # it means that the lesson will be from 3 to 4th lesson time
+        cellSlices = timetable[i]['cellSlices']  # For now, forget it
+        cellOrder = timetable[i]['cellOrder']  # For now, forget it
 
-        try:
-            classroomids = timetable[i]['classroomids'][0]
-            # id of a classroom
-        except:
-            classroomids = ''
+        subject = {
+            'uniperiod': uniperiod,
+            'starttime': starttime,
+            'endtime': endtime,
+            'subjectid': subjectid,
+            'classids': classids,
+            'groupnames': groupnames,
+            'teacherids': teacherids,
+            'colors': colors,
+            'classroomids': classroomids,
+            'cellSlices': cellSlices,
+            'cellOrder': cellOrder,
+        }
 
-        try:
-            durationperiods = timetable[i]['durationperiods']
-            # duration of the lesson, e.g. if the uniperiod = 3 and durationperiods = 2,
-            # it means that the lesson will be from 3 to 4th lesson time
-        except:
-            durationperiods = 1
-        try:
-            cellSlices = timetable[i]['cellSlices']  # For now, forget it
-            cellOrder = timetable[i]['cellOrder']  # For now, forget it
-        except Exception as ex:
-            cellSlices = ''
-            cellOrder = ''
-        # print(
-        #     f"date={date}, uniperiod={uniperiod}, starttime={starttime}, endtime={endtime}, subjectid={subjectid}, classids={classids}, groupnames={groupnames}, teacherids={teacherids}, classroomids={classroomids}, colors={colors}, durationperiods={durationperiods}, cellSlices={cellSlices}, cellOrder={cellOrder}")
-
-        # teacherids
-        if (teacherids != ""):
-            item = teachersdb.get_item(param="id", value=teacherids)
-            if (item == None):
-                item = ""
-            else:
-                item = item[1]
-            print(item)
-            timetable[i]['teacherids'] = item
-
-            # classroomids
-        if (classroomids != ""):
-            item = classroomsdb.get_item(param="id", value=classroomids)
-            if (item == None):
-                item = ""
-            else:
-                item = item[1]
-            # print(item)
-            timetable[i]['classroomids'] = item
-
-            # classids
-        if (classids != []):
-            for j in range(len(classids)):
-                item = classesdb.get_item(param="id", value=(classids[j]))
-                if (item == None):
-                    item = ""
-                else:
-                    item = item[1]
-                timetable[i]['classids'][j] = item
-            # print(item)
-            # timetable[i]['classids'] = item
-
-            # subjectid
-        if (subjectid != ""):
-            item = subjectsdb.get_item(param="id", value=subjectid)
-            if (item == None):
-                item = ""
-            else:
-                item = item[1]
-            print(item)
-            timetable[i]['subjectid'] = item
-        # date, uniperiod, starttime, endtime, subjectid, classids, groupnames,
+        # date, uniperiod, starttime, endtime, subjectid, classids[], groupnames,
         # teacherid, colors, classroomids, durationperiods, cellSlices, cellOrder
 
-        daycount = 0  # fixed timetable's iterator (j = 0 means monday, j = 1 means tuesday and etc.
-
         # fixed_timetable
-        # if previous_date != date:
-        #     fixed_timetable[j]
-        #     pass
-        # else:
-        #     fixed_timetable.append({
-        #
-        #     })
-        #     daycount+=1
-    # with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
-    #     file.write(json.dumps(timetable, indent=4, ensure_ascii=False))
+        if previous_date != date:
+            daycount += 1
 
-    print(json.dumps(timetable, indent=4, ensure_ascii=False))
+            fixed_timetable.append([])
+
+        for j in range(durationperiods):
+            subject['uniperiod'] = str(int(subject['uniperiod']) + j)
+            fixed_timetable[daycount].append(subject)
+
+        previous_date = date
+
+
+    with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
+        file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
+
+    print(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
     with open(f"data/{classesdb.get_item('id', classid)[1]}.json", "w") as file:
         file.write(json.dumps(fixed_timetable))
