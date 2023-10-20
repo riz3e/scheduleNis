@@ -1,0 +1,1711 @@
+[
+    {
+        "1": [
+            {
+                "uniperiod": 1,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Английский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Бусыгина Т.В.",
+                "colors": "#CCFF66",
+                "classroomids": "D251 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "2": [
+            {
+                "uniperiod": 2,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Английский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Бусыгина Т.В.",
+                "colors": "#CCFF66",
+                "classroomids": "D251 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "3": [
+            {
+                "uniperiod": 3,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "4": [
+            {
+                "uniperiod": 4,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "5": [
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B308 ИВТ (К)+",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "6": [
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B308 ИВТ (К)+",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "7": [
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B301 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B208 НВП+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "8": [
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B301 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B208 НВП+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "9": [
+            {
+                "uniperiod": 9,
+                "starttime": "15:15",
+                "endtime": "16:40",
+                "subjectid": "Казахский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Иманбаева Г.О.",
+                "colors": "#CC0000",
+                "classroomids": "C315 Каз+",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "10": [
+            {
+                "uniperiod": 10,
+                "starttime": "15:15",
+                "endtime": "16:40",
+                "subjectid": "Казахский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Иманбаева Г.О.",
+                "colors": "#CC0000",
+                "classroomids": "C315 Каз+",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ]
+    },
+    {
+        "1": [
+            {
+                "uniperiod": 1,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Программирование",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B210 ИВТ(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "2": [
+            {
+                "uniperiod": 2,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Программирование",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B210 ИВТ(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "3": [
+            {
+                "uniperiod": 3,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Физическая культура",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Омаров Т.Д.",
+                "colors": "#FFC000",
+                "classroomids": "Большой спорт зал.",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "4": [
+            {
+                "uniperiod": 4,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Физическая культура",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Омаров Т.Д.",
+                "colors": "#FFC000",
+                "classroomids": "Большой спорт зал.",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "5": [
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B308 ИВТ (К)+",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "6": [
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B308 ИВТ (К)+",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "7": [
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B203 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B301 Физ+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "8": [
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B203 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B301 Физ+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "9": [
+            {
+                "uniperiod": 9,
+                "starttime": "15:15",
+                "endtime": "15:55",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "10": [
+            {
+                "uniperiod": 10,
+                "starttime": "16:00",
+                "endtime": "16:40",
+                "subjectid": "Грамматика второго языка",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Грамматика яыка",
+                "teacherids": "Мамлеева С.Б.",
+                "colors": "#FFCCCC",
+                "classroomids": "C314 Рус+",
+                "cellSlices": "10",
+                "cellOrder": 0
+            }
+        ]
+    },
+    {
+        "1": [
+            {
+                "uniperiod": 1,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Русский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамлеева С.Б.",
+                "colors": "#FFCCCC",
+                "classroomids": "C323 Рус+",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "2": [
+            {
+                "uniperiod": 2,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Русский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамлеева С.Б.",
+                "colors": "#FFCCCC",
+                "classroomids": "C323 Рус+",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "3": [
+            {
+                "uniperiod": 3,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "4": [
+            {
+                "uniperiod": 4,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "5": [
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "12:30",
+                "subjectid": "НВП",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Куанышбаев А.Ж.",
+                "colors": "#0080FF",
+                "classroomids": "B208 НВП+",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "6": [
+            {
+                "uniperiod": 6,
+                "starttime": "12:35",
+                "endtime": "14:15",
+                "subjectid": "История Казахстана",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Султанова Н.А.",
+                "colors": "#FFCC66",
+                "classroomids": "D341 Ист+(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "7": [
+            {
+                "uniperiod": 7,
+                "starttime": "12:35",
+                "endtime": "14:15",
+                "subjectid": "История Казахстана",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Султанова Н.А.",
+                "colors": "#FFCC66",
+                "classroomids": "D341 Ист+(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "8": [
+            {
+                "uniperiod": 8,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "География",
+                "classids": [
+                    "11a",
+                    "11d",
+                    "11b",
+                    "11c",
+                    "11e"
+                ],
+                "groupnames": "География",
+                "teacherids": "Рахманова Н.Б.",
+                "colors": "#FF8000",
+                "classroomids": "D343 Гео+(К)",
+                "cellSlices": "1000",
+                "cellOrder": 0
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Математика",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "0001",
+                "cellOrder": 3
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Экономика",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e"
+                ],
+                "groupnames": "Экономика",
+                "teacherids": "Хасен Д.С.",
+                "colors": "#14C000",
+                "classroomids": "C313 Рус+",
+                "cellSlices": "0100",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Графика и проектирование",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "ГиП",
+                "teacherids": "Бокашев Д.С.",
+                "colors": "#99CCFF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0010",
+                "cellOrder": 2
+            }
+        ],
+        "9": [
+            {
+                "uniperiod": 9,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "География",
+                "classids": [
+                    "11a",
+                    "11d",
+                    "11b",
+                    "11c",
+                    "11e"
+                ],
+                "groupnames": "География",
+                "teacherids": "Рахманова Н.Б.",
+                "colors": "#FF8000",
+                "classroomids": "D343 Гео+(К)",
+                "cellSlices": "1000",
+                "cellOrder": 0
+            },
+            {
+                "uniperiod": 9,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Математика",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "0001",
+                "cellOrder": 3
+            },
+            {
+                "uniperiod": 9,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Экономика",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e"
+                ],
+                "groupnames": "Экономика",
+                "teacherids": "Хасен Д.С.",
+                "colors": "#14C000",
+                "classroomids": "C313 Рус+",
+                "cellSlices": "0100",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 9,
+                "starttime": "14:25",
+                "endtime": "15:55",
+                "subjectid": "Графика и проектирование",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "ГиП",
+                "teacherids": "Бокашев Д.С.",
+                "colors": "#99CCFF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0010",
+                "cellOrder": 2
+            }
+        ],
+        "10": [
+            {
+                "uniperiod": 10,
+                "starttime": "16:00",
+                "endtime": "16:40",
+                "subjectid": "Кураторский час",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Исламова Мадина Рашидкызы",
+                "colors": "#6600FF",
+                "classroomids": "C223 Англ яз +",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ]
+    },
+    {
+        "1": [
+            {
+                "uniperiod": 1,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Глобальные перспективы и проектные работы",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D341 Ист+(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "2": [
+            {
+                "uniperiod": 2,
+                "starttime": "08:15",
+                "endtime": "09:50",
+                "subjectid": "Глобальные перспективы и проектные работы",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D341 Ист+(К)",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "3": [
+            {
+                "uniperiod": 3,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "4": [
+            {
+                "uniperiod": 4,
+                "starttime": "10:00",
+                "endtime": "11:25",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "5": [
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 5,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B210 ИВТ(К)",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "6": [
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "Инф1",
+                "teacherids": "Бегунгутов Т.Е.",
+                "colors": "#0080FF",
+                "classroomids": "B310 ИВТ(К)",
+                "cellSlices": "0000000000001000",
+                "cellOrder": 12
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "Biology",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Био2",
+                "teacherids": "Кунанбаева С.Ж.",
+                "colors": "#14C030",
+                "classroomids": "B206 Био",
+                "cellSlices": "0000000000100000",
+                "cellOrder": 10
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "11:50",
+                "endtime": "13:15",
+                "subjectid": "ICT",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Инф2",
+                "teacherids": "Омарова Ж.Н.",
+                "colors": "#FF4200",
+                "classroomids": "B210 ИВТ(К)",
+                "cellSlices": "0000000000000100",
+                "cellOrder": 13
+            }
+        ],
+        "7": [
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B201 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 7,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B203 Физ+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "8": [
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ2",
+                "teacherids": "Адилханов А.А.",
+                "colors": "#33CCFF",
+                "classroomids": "B201 Физ+",
+                "cellSlices": "0100000000000000",
+                "cellOrder": 1
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11a",
+                    "11b"
+                ],
+                "groupnames": "Хим3",
+                "teacherids": "Кудайбергенова К.А.",
+                "colors": "#C014FF",
+                "classroomids": "B103 Хим+",
+                "cellSlices": "0000000100000000",
+                "cellOrder": 7
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Chemistry",
+                "classids": [
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Хим1",
+                "teacherids": "Абуханова А.Б.",
+                "colors": "#FFC030",
+                "classroomids": "B101 Био+",
+                "cellSlices": "0000010000000000",
+                "cellOrder": 5
+            },
+            {
+                "uniperiod": 8,
+                "starttime": "13:35",
+                "endtime": "15:05",
+                "subjectid": "Physics",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c"
+                ],
+                "groupnames": "Физ1",
+                "teacherids": "Султанова И.А.",
+                "colors": "#FF57FF",
+                "classroomids": "B203 Физ+",
+                "cellSlices": "1000000000000000",
+                "cellOrder": 0
+            }
+        ],
+        "9": [
+            {
+                "uniperiod": 9,
+                "starttime": "15:15",
+                "endtime": "16:40",
+                "subjectid": "Academic English",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D254 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "10": [
+            {
+                "uniperiod": 10,
+                "starttime": "15:15",
+                "endtime": "16:40",
+                "subjectid": "Academic English",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D254 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ]
+    },
+    {
+        "1": [
+            {
+                "uniperiod": 1,
+                "starttime": "09:10",
+                "endtime": "09:50",
+                "subjectid": "Физическая культура",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Омаров Т.Д.",
+                "colors": "#FFC000",
+                "classroomids": "Большой спорт зал",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "2": [
+            {
+                "uniperiod": 2,
+                "starttime": "10:05",
+                "endtime": "11:35",
+                "subjectid": "Английский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Бусыгина Т.В.",
+                "colors": "#CCFF66",
+                "classroomids": "D253 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "3": [
+            {
+                "uniperiod": 3,
+                "starttime": "10:05",
+                "endtime": "11:35",
+                "subjectid": "Английский язык",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Бусыгина Т.В.",
+                "colors": "#CCFF66",
+                "classroomids": "D253 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "4": [
+            {
+                "uniperiod": 4,
+                "starttime": "11:40",
+                "endtime": "13:20",
+                "subjectid": "Глобальные перспективы и проектные работы",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D254 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "5": [
+            {
+                "uniperiod": 5,
+                "starttime": "11:40",
+                "endtime": "13:20",
+                "subjectid": "Глобальные перспективы и проектные работы",
+                "classids": [
+                    "11b"
+                ],
+                "groupnames": "",
+                "teacherids": "Брускина В.К.",
+                "colors": "#FF8057",
+                "classroomids": "D254 Англ",
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "6": [
+            {
+                "uniperiod": 6,
+                "starttime": "13:25",
+                "endtime": "14:05",
+                "subjectid": "География",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d",
+                    "11c",
+                    "11e"
+                ],
+                "groupnames": "География",
+                "teacherids": "Рахманова Н.Б.",
+                "colors": "#FF8000",
+                "classroomids": "D343 Гео+(К)",
+                "cellSlices": "1000",
+                "cellOrder": 0
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "13:25",
+                "endtime": "14:05",
+                "subjectid": "Математика",
+                "classids": [
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "Математика",
+                "teacherids": "Мамырай А.",
+                "colors": "#C0A0FF",
+                "classroomids": "C213 Мат",
+                "cellSlices": "0001",
+                "cellOrder": 3
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "13:25",
+                "endtime": "14:05",
+                "subjectid": "Графика и проектирование",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11d"
+                ],
+                "groupnames": "ГиП",
+                "teacherids": "Бокашев Д.С.",
+                "colors": "#99CCFF",
+                "classroomids": "D249 Арт+",
+                "cellSlices": "0010",
+                "cellOrder": 2
+            },
+            {
+                "uniperiod": 6,
+                "starttime": "13:25",
+                "endtime": "14:05",
+                "subjectid": "Экономика",
+                "classids": [
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e"
+                ],
+                "groupnames": "Экономика",
+                "teacherids": "Хасен Д.С.",
+                "colors": "#14C000",
+                "classroomids": "C325 Каз",
+                "cellSlices": "0100",
+                "cellOrder": 1
+            }
+        ],
+        "7": [
+            {
+                "uniperiod": 7,
+                "starttime": "14:25",
+                "endtime": "15:05",
+                "subjectid": "IELTS",
+                "classids": [
+                    "11b",
+                    "11e"
+                ],
+                "groupnames": "IELTS",
+                "teacherids": "Шаимова А.Т.",
+                "colors": "#FF9999",
+                "classroomids": "D254 Англ",
+                "cellSlices": "10",
+                "cellOrder": 0
+            }
+        ],
+        "8": [
+            {
+                "uniperiod": 8,
+                "starttime": "15:15",
+                "endtime": "17:25",
+                "subjectid": "Творческий день",
+                "classids": [
+                    "5a",
+                    "5b",
+                    "5c",
+                    "6a",
+                    "6b",
+                    "6c",
+                    "7a",
+                    "7b",
+                    "7c",
+                    "7d",
+                    "7e",
+                    "7f",
+                    "7g",
+                    "7h",
+                    "8a",
+                    "8b",
+                    "8c",
+                    "8d",
+                    "8e",
+                    "8f",
+                    "9a",
+                    "9b",
+                    "9c",
+                    "9d",
+                    "9e",
+                    "10a",
+                    "10b",
+                    "10c",
+                    "10d",
+                    "10e",
+                    "10f",
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e",
+                    "12a",
+                    "12b",
+                    "12c",
+                    "12d"
+                ],
+                "groupnames": "",
+                "teacherids": [],
+                "colors": "#FFFFE6",
+                "classroomids": [],
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "9": [
+            {
+                "uniperiod": 9,
+                "starttime": "15:15",
+                "endtime": "17:25",
+                "subjectid": "Творческий день",
+                "classids": [
+                    "5a",
+                    "5b",
+                    "5c",
+                    "6a",
+                    "6b",
+                    "6c",
+                    "7a",
+                    "7b",
+                    "7c",
+                    "7d",
+                    "7e",
+                    "7f",
+                    "7g",
+                    "7h",
+                    "8a",
+                    "8b",
+                    "8c",
+                    "8d",
+                    "8e",
+                    "8f",
+                    "9a",
+                    "9b",
+                    "9c",
+                    "9d",
+                    "9e",
+                    "10a",
+                    "10b",
+                    "10c",
+                    "10d",
+                    "10e",
+                    "10f",
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e",
+                    "12a",
+                    "12b",
+                    "12c",
+                    "12d"
+                ],
+                "groupnames": "",
+                "teacherids": [],
+                "colors": "#FFFFE6",
+                "classroomids": [],
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ],
+        "10": [
+            {
+                "uniperiod": 10,
+                "starttime": "15:15",
+                "endtime": "17:25",
+                "subjectid": "Творческий день",
+                "classids": [
+                    "5a",
+                    "5b",
+                    "5c",
+                    "6a",
+                    "6b",
+                    "6c",
+                    "7a",
+                    "7b",
+                    "7c",
+                    "7d",
+                    "7e",
+                    "7f",
+                    "7g",
+                    "7h",
+                    "8a",
+                    "8b",
+                    "8c",
+                    "8d",
+                    "8e",
+                    "8f",
+                    "9a",
+                    "9b",
+                    "9c",
+                    "9d",
+                    "9e",
+                    "10a",
+                    "10b",
+                    "10c",
+                    "10d",
+                    "10e",
+                    "10f",
+                    "11a",
+                    "11b",
+                    "11c",
+                    "11d",
+                    "11e",
+                    "12a",
+                    "12b",
+                    "12c",
+                    "12d"
+                ],
+                "groupnames": "",
+                "teacherids": [],
+                "colors": "#FFFFE6",
+                "classroomids": [],
+                "cellSlices": "1",
+                "cellOrder": 0
+            }
+        ]
+    },
+    {
+        "1": [],
+        "2": [
+            {
+                "uniperiod": 4,
+                "starttime": "10:45",
+                "endtime": "12:30",
+                "subjectid": "Яндекс лицей",
+                "classids": [
+                    "8a",
+                    "8b",
+                    "8c",
+                    "8d",
+                    "8f",
+                    "9a",
+                    "9b",
+                    "9c",
+                    "9d",
+                    "9e",
+                    "10a",
+                    "10b",
+                    "10c",
+                    "10d",
+                    "10e",
+                    "10f",
+                    "11a",
+                    "8e",
+                    "11b",
+                    "11c",
+                    "11d"
+                ],
+                "groupnames": "Яндекс лицей",
+                "teacherids": "Иемберген Дастан Серикулы",
+                "colors": "#FFFFCC",
+                "classroomids": "B308 ИВТ (К)+",
+                "cellSlices": "01",
+                "cellOrder": 1
+            }
+        ]
+    }
+]
