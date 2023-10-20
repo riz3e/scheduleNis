@@ -84,6 +84,7 @@ def translate_id_to_names_json():
         except Exception as ex:
             print("pop problem", ex)
 
+        timetable[i]['uniperiod'] = int(timetable[i]['uniperiod'])
         subjectid = timetable[i]['subjectid']
         classids = timetable[i]['classids']  # a list of classes that have this lesson
         timetable[i]['groupnames'] = timetable[i]['groupnames'][0]
@@ -117,8 +118,6 @@ def translate_id_to_names_json():
         except Exception as ex:
             timetable[i]['cellSlices'] = '1'
             timetable[i]['cellOrder'] = 0
-        # print(
-        #     f"date={date}, uniperiod={uniperiod}, starttime={starttime}, endtime={endtime}, subjectid={subjectid}, classids={classids}, groupnames={groupnames}, teacherids={teacherids}, classroomids={classroomids}, colors={colors}, durationperiods={durationperiods}, cellSlices={cellSlices}, cellOrder={cellOrder}")
 
         # teacherids
         if (teacherids != ""):
@@ -127,7 +126,6 @@ def translate_id_to_names_json():
                 item = ""
             else:
                 item = item[1]
-            # print(item)
             timetable[i]['teacherids'] = item
 
             # classroomids
@@ -172,9 +170,9 @@ if __name__ == "__main__":
     translate_id_to_names_json()
     with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
         timetable = json.loads(file.read())
-
+    print(json.dumps(timetable, indent=4, ensure_ascii=False))
     fixed_timetable = []
-    # previous_date = timetable[0]['date']
+
     previous_date = ""
     daycount = -1  # fixed timetable's iterator (j = 0 means monday, j = 1 means tuesday and etc.
 
@@ -219,15 +217,25 @@ if __name__ == "__main__":
             fixed_timetable.append([])
 
         for j in range(durationperiods):
-            subject['uniperiod'] = str(int(subject['uniperiod']) + j)
-            fixed_timetable[daycount].append(subject)
+            fixed_timetable[daycount].append({
+                'uniperiod': uniperiod + j,
+                'starttime': starttime,
+                'endtime': endtime,
+                'subjectid': subjectid,
+                'classids': classids,
+                'groupnames': groupnames,
+                'teacherids': teacherids,
+                'colors': colors,
+                'classroomids': classroomids,
+                'cellSlices': cellSlices,
+                'cellOrder': cellOrder,
+            })
 
         previous_date = date
-
-
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
 
-    print(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
-    with open(f"data/{classesdb.get_item('id', classid)[1]}.json", "w") as file:
-        file.write(json.dumps(fixed_timetable))
+
+    # print(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
+    # with open(f"data/{classesdb.get_item('id', classid)[1]}.json", "w", encoding='utf-8') as file:
+    #     file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
