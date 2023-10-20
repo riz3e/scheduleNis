@@ -2,8 +2,8 @@ import json
 import requests
 from datetime import datetime, timedelta
 
-import classesdb
 import classroomsdb
+import classesdb
 import subjectsdb
 import teachersdb
 
@@ -258,7 +258,7 @@ def format_the_json():
 
 
 if __name__ == "__main__":
-    request_tt()
+    request_tt(classid = classid)
     translate_id_to_names_json()
     format_the_json()
 
