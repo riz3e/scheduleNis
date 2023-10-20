@@ -170,7 +170,7 @@ if __name__ == "__main__":
     translate_id_to_names_json()
     with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
         timetable = json.loads(file.read())
-    print(json.dumps(timetable, indent=4, ensure_ascii=False))
+    # print(json.dumps(timetable, indent=4, ensure_ascii=False))
     fixed_timetable = []
 
     previous_date = ""
@@ -232,10 +232,29 @@ if __name__ == "__main__":
             })
 
         previous_date = date
+
+    # sorting by uniperiod
+    for day in range(len(fixed_timetable)):
+        oneday = sorted(fixed_timetable[day], key=lambda subject: subject['uniperiod'])
+        fixed_timetable[day] = oneday
+
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
 
+    for daycount in range(len(fixed_timetable)):
+        maxlen = fixed_timetable[daycount][-1]['uniperiod']
+        currentsubj = 1
+        new_day = []
+        subjtime = []  # it is the subjects that are being at the same uniperiod
+        for subjcount in range(len(fixed_timetable[daycount])):
+            if fixed_timetable[daycount][subjcount]['uniperiod'] == currentsubj:
+                subjtime.append(fixed_timetable[daycount][subjcount])
+            else:
+                print(subjtime)
+                currentsubj += 1
+                new_day.append(subjtime)
+                subjtime = [fixed_timetable[daycount][subjcount]]
+        fixed_timetable[daycount] = new_day
 
-    # print(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
-    # with open(f"data/{classesdb.get_item('id', classid)[1]}.json", "w", encoding='utf-8') as file:
-    #     file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
+    with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
+        file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
