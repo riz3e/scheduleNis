@@ -66,14 +66,14 @@ def request_tt(classid=classid):
 
         print("data fetched")
         with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
-            file.write(json.dumps(data, indent=4, ensure_ascii=False))
+            file.write(json.dumps(data, ensure_ascii=False, indent=4))
 
     else:
         print(f"Failed to retrieve data. Status code: {response.status_code}")
 
 
-def translate_id_to_names_json():
-    with open("data/-140.json", "r", encoding="utf-8") as file:
+def translate_id_to_names_json(classid=classid):
+    with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
         timetable = file.read()
     timetable = json.loads(timetable)
 
@@ -158,9 +158,9 @@ def translate_id_to_names_json():
             # print(item)
             timetable[i]['subjectid'] = item
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
-        file.write(json.dumps(timetable, indent=4, ensure_ascii=False))
+        file.write(json.dumps(timetable, ensure_ascii=False))
 
-def format_the_json():
+def format_the_json(classid=classid):
     with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
         timetable = json.loads(file.read())
     # print(json.dumps(timetable, indent=4, ensure_ascii=False))
@@ -253,15 +253,20 @@ def format_the_json():
 
 
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
-        file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
+        file.write(json.dumps(fixed_timetable, ensure_ascii=False, indent=4))
 
+def final(classid=classid):
+    request_tt(classid=str(classid))
+    translate_id_to_names_json(classid=classid)
+    format_the_json(classid=classid)
+    with open(f"data/{classid}.json", "r", encoding='utf-8') as file:
+        content = json.loads(file.read())
 
+        print(content)
+    return content
 
 if __name__ == "__main__":
-    request_tt(classid = classid)
-    translate_id_to_names_json()
-    format_the_json()
-
+    final()
 
 
 
