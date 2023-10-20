@@ -241,20 +241,23 @@ if __name__ == "__main__":
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
 
+
     for daycount in range(len(fixed_timetable)):
         maxlen = fixed_timetable[daycount][-1]['uniperiod']
         currentsubj = 1
-        new_day = []
+        new_day = {}
         subjtime = []  # it is the subjects that are being at the same uniperiod
         for subjcount in range(len(fixed_timetable[daycount])):
             if fixed_timetable[daycount][subjcount]['uniperiod'] == currentsubj:
                 subjtime.append(fixed_timetable[daycount][subjcount])
             else:
-                print(subjtime)
+                # print(subjtime)
                 currentsubj += 1
-                new_day.append(subjtime)
+                new_day[currentsubj - 1] = subjtime
                 subjtime = [fixed_timetable[daycount][subjcount]]
         fixed_timetable[daycount] = new_day
+
+
 
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
