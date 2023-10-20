@@ -1,6 +1,8 @@
 import json
 import sqlite3
 
+from icecream import ic
+
 connection_file = "main.db"
 table_name = "subjects"
 
@@ -8,7 +10,7 @@ if __name__ == "__main__":
     with open("test.json", 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    subjectsjson = data["r"]["tables"][1]["data_rows"]
+
 
 
 def checkDB(table_name: str = table_name):
@@ -41,13 +43,21 @@ def get_item(param: str, value):
 
 
 # converting the JSON-file to DB
-def convertJsonToDB():
+def convertJsonToDB(path: str = "data/maindbi.json"):
+    """
+
+    :param path: path to main db json
+    :return:
+    """
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.loads(file.read())
+    subjectsjson = data["r"]["tables"][1]["data_rows"]
     try:
         for i in range(len(subjectsjson)):
             subjdat = subjectsjson[i]
             add_item(int(subjdat["id"]), subjdat["name"], subjdat["short"])
     except Exception as ex:
-        print(ex)
+        ic(ex, table_name)
 
 
 # Deleting the DB in case something changed in the NIS schedule site, so we can update our DB

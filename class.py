@@ -9,6 +9,14 @@ import teachersdb
 
 classid = "-140"
 
+
+# class ttday():
+#     # date, uniperiod, starttime, endtime, subjectid, classids, groupnames,
+#     # teacherid, colors, classroomids, durationperiods, cellSlices, cellOrder
+#     def __init__(self):
+#
+
+
 def request_tt(classid=classid):
     # Get the current date
     current_date = datetime.now()
@@ -152,14 +160,7 @@ def translate_id_to_names_json():
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(timetable, indent=4, ensure_ascii=False))
 
-
-# if __name__ == "__main__":
-#     request_tt()
-#     translate_id_to_names_json()
-
-if __name__ == "__main__":
-    request_tt()
-    translate_id_to_names_json()
+def format_the_json():
     with open(f"data/{classid}.json", "r", encoding="utf-8") as file:
         timetable = json.loads(file.read())
     # print(json.dumps(timetable, indent=4, ensure_ascii=False))
@@ -249,17 +250,18 @@ if __name__ == "__main__":
                 subjtime = [fixed_timetable[daycount][subjcount]]
         fixed_timetable[daycount] = new_day
 
-    for daycount in range(len(fixed_timetable)):
-        for subjcount in range(1,len(fixed_timetable[daycount])+1):
-            try:
-                if fixed_timetable[daycount][subjcount][0]['uniperiod'] > subjcount:
-                    fixed_timetable[daycount][fixed_timetable[daycount][subjcount][0]['uniperiod']] = fixed_timetable[daycount][subjcount]
-                    for i in range(1, fixed_timetable[daycount][subjcount][0]['uniperiod']):
-                        fixed_timetable[daycount][i] = []
-            except IndexError:
-                # print(ex, subjcount)
-                # print(fixed_timetable[daycount])
-                pass
+
 
     with open(f"data/{classid}.json", "w", encoding='utf-8') as file:
         file.write(json.dumps(fixed_timetable, indent=4, ensure_ascii=False))
+
+
+
+if __name__ == "__main__":
+    request_tt()
+    translate_id_to_names_json()
+    format_the_json()
+
+
+
+
